@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 //connecting to database
-mongoose.connect('mongodb+srv://belma:svadba1712@cluster0.ltbpe.mongodb.net/MusicApp?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://name:password@cluster0.ltbpe.mongodb.net/MusicApp?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
