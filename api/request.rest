@@ -1,0 +1,50 @@
+GET http://localhost:3000/Songs
+###
+
+GET http://localhost:3000/Category
+###
+POST http://localhost:3000/Songs/new
+Content-Type: application/json
+
+{
+    "categoryName": "Hip hop music",
+    "SongName": "Venom",
+    "ArtistName": "Eminem",
+    "SongUrl": "https://www.youtube.com/watch?v=8CdcCD5V-d8&ab_channel=EminemVEVO",
+    "SongRating": 5,
+    "Favorite": true
+}
+
+###
+DELETE http://localhost:3000/Songs/delete/6183d5a9225a99145c62f89a
+
+###
+
+GET http://localhost:3000/Songs/Category/6183ec85720d4f3ac588b1c2
+
+###
+get  http://localhost:3000/Songs/favorite/6183f58de52512771fbb65f6
+
+###
+GET http://localhost:3000/Songs/edit/618ad793171da9ca304959d1
+
+###
+
+POST http://localhost:3000/Songs/edit/618ad793171da9ca304959d1
+Content-Type: application/json
+
+{
+    "categoryName": "Hip hop music",
+    "SongName": "Venom",
+    "ArtistName": "Eminem",
+    "SongUrl": "https://www.youtube.com/watch?v=8CdcCD5V-d8&ab_channel=EminemVEVO",
+    "SongRating": 5,
+    "Favorite": true
+}
+
+###
+GET http://localhost:3000/user
+
+###
+POST http://localhost:3000/user
+Content-Type: application/json

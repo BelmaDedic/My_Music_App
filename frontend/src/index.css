@@ -1,0 +1,227 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(242, 250, 250);
+}
+
+
+.navbar{
+  display: flex;
+  background-color: rgb(221, 228, 228);
+  height: 45px;
+}
+
+.logo {
+  text-decoration: none;
+  margin: auto;
+  margin-left: 5%;
+  text-align: left;
+  width: 100%;
+}
+
+.logo h2{
+  font-size: 25px;
+  color: purple;
+  font-weight: 550;
+  background-color: rgb(221, 228, 228);
+}
+
+.links{
+  display: flex;
+  width: 250px;
+  gap: 30px;
+  vertical-align: middle;
+  float: right;
+  margin: auto;
+  margin-right: 3%;
+  background-color: rgb(221, 228, 228);
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(135, 4, 135);
+  background-color: rgb(221, 228, 228);
+  font-size: 18px;
+}
+
+.link:hover{
+  border-bottom: solid 1px purple;
+}
+
+.songs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.song {
+  width: 240px;
+  border: 1px solid rgb(194, 9, 142);
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.song:hover {
+  box-shadow: 2px 5px 12px rgb(240, 7, 240);
+}
+
+.image p{
+  width: 238px;
+  height: 170px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWc29uUY_bBJYA3XwjSNfrxBuyjhjaJDmVGw&usqp=CAU');
+}
+
+.music {
+  color: purple;
+  text-align: center;
+  margin: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 18px;
+  cursor: context-menu;
+  word-wrap: break-word;
+}
+
+.rating {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(111, 2, 111);
+  display: flex;
+  justify-content: center;
+  cursor: context-menu;
+}
+
+.rating p {
+  margin-top: -5%;
+  color: rgb(243, 235, 6);
+  font-size: 28px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 4%;
+  font-size: 35px;
+}
+
+.linkUrl {
+  margin-top: 3%;
+}
+
+.linkUrl a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+.favorite {
+  color: red;
+  cursor: pointer;
+}
+
+.notFavorite {
+  color: black;
+  cursor: pointer;
+}
+
+.data {
+  display: flex;
+  font-size: 29px;
+  justify-content: space-between;
+  cursor: pointer;
+  gap: 40px;
+}
+
+.delete {
+  margin-left: 30%;
+}
+
+.update {
+  margin-right: 30%;
+}
+
+.delete:hover, .update:hover{
+  box-shadow: 2px 5px 12px grey;
+}
+
+.addSong {
+  color: rgb(92, 3, 92);
+  font-weight: 500;
+  text-align: center;
+  font-size: large;
+}
+
+.addSong h2{
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 6%;
+  font-weight: 400;
+}
+
+label {
+  padding-right: 5%;
+}
+
+.url {
+  margin-right: 22px;
+}
+
+input {
+  margin-bottom: 2%;
+  padding: 5px;
+  border-radius: 5px;
+  width: 325px;
+  background-color: rgb(211, 186, 211);
+  color: purple;
+}
+
+.ratee {
+  display: flex;
+  justify-content: center;
+}
+
+.lrate {
+  margin-left: 2%;
+}
+
+.rate {
+  width: 200px;
+  margin-right: 2%;
+}
+
+.number {
+  margin-top: 2px;
+}
+
+.submit {
+  width: 120px;
+  border-radius: 5px;
+  background-color: rgb(177, 173, 173);
+  font-size: large;
+  padding: 0.5%;
+  border: 1px solid rgb(80, 80, 80);
+  color: purple;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  font-weight: 520;
+}
+
+.notFound {
+  font-size: 300px;
+  text-align: center;
+}
+
+.notFound h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: red;
+}
